@@ -21,6 +21,7 @@ public class Usuario {
     public void listarLivrosEmprestados() {
         System.out.println("Livros emprestados por " + nome + ":");
         for (Livro livro : livrosEmprestados) {
+
         }
     }
 }
