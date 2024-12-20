@@ -20,7 +20,7 @@ public class Livro {
         System.out.println("Disponivel: " + (disponivel ? "Sim" : "Não"));
     }
 
-    // Marcando o livro como indisponivel.
+    // Marcando o livro como indisponivel...
     public void emprestar() {
         if (disponivel) {
             disponivel = false;
