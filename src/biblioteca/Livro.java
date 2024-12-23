@@ -13,7 +13,7 @@ public class Livro {
         this.disponivel = disponivel;
     }
 
-    public void exibirDetalhe() {
+    public void exibirDetalhes() {
         System.out.println("Titulo: " + titulo);
         System.out.println("Autor: " + autor);
         System.out.println("ISBN: " + isbn);
